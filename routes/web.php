@@ -13,3 +13,7 @@ Route::get('/login', function () {
 Route::get('/welcome', function () {
     return view('welcome'); //merujuk ke file welcome.blade.php
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
